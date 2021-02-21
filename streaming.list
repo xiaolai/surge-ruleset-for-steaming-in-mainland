@@ -88,3 +88,32 @@ USER-AGENT,ShowTime*
 DOMAIN-SUFFIX,sho.com
 
 
+# > Disney Plus
+USER-AGENT,Disney*
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN,cdn.registerdisney.go.com
+
+
+# > BBC
+USER-AGENT,BBCiPlayer*
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,co.uk
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
+DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
+
+
+# > PBS
+USER-AGENT,PBS*
+DOMAIN-SUFFIX,pbs.org
