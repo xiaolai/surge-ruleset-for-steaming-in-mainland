@@ -33,14 +33,25 @@ IP-CIDR,52.89.124.203/32,no-resolve
 IP-CIDR,54.148.37.5/32,no-resolve
 
 # > HBO Max
-USER-AGENT,HBOMAX*
-DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbonow.com
+USER-AGENT,HBOMAX*
 DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hboasia.com
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN,bcbolthboa-a.akamaihd.net
+DOMAIN,players.brightcove.net
+DOMAIN,s3-ap-southeast-1.amazonaws.com
+DOMAIN,dai3fd1oh325y.cloudfront.net
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+DOMAIN,hboasia1-i.akamaihd.net
+DOMAIN,hboasia2-i.akamaihd.net
+DOMAIN,hboasia3-i.akamaihd.net
+DOMAIN,hboasia4-i.akamaihd.net
+DOMAIN,hboasia5-i.akamaihd.net
 
 # > Amazon Prime Video
 USER-AGENT,InstantVideo.US*
@@ -48,6 +59,7 @@ USER-AGENT,Prime%20Video*
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,llnwd.net
 
 # > Fox+
@@ -96,22 +108,16 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN,cdn.registerdisney.go.com
-
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm-extension.com
 
 # > BBC
 USER-AGENT,BBCiPlayer*
-DOMAIN-KEYWORD,bbcfmt
-DOMAIN-KEYWORD,co.uk
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
-DOMAIN,vod-dash-uk-live.akamaized.net
-DOMAIN,vod-thumb-uk-live.akamaized.net
-DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
-DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
 
 
 # > PBS
